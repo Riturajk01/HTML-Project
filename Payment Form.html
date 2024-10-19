@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <h1 style="text-align: center;">PAYMENT FORM </h1>
+</fieldset>
+    <br>
+    <h5 style="text-align: center;">required field are followed by*</h5>
+    <h1 style="text-align: center;">CONTACT INFORMATION</h1>
+    <br>
+    <hr>
+    <br>
+    <label for="name" style="text-align: center;">Name*</label required>
+    <input type="text" id="name" style="text-align: center;" placeholder="Enter Your Name" required>
+    <br>
+    <br>
+    <fieldset>
+        <legend>
+            GENDER*
+        </legend>
+        <br>
+    <label for="male">Male</label required>
+    <input type="radio" id="male"  name="Game" >
+    <label for="female">Female</label>
+    <input type="radio" id="female"  name="female" >
+
+    </fieldset>
+    <br>
+    <br>
+    <label for="address" >Address</label>
+    <textarea name="address" id="address"></textarea>
+    <br>
+    <br> 
+    <label for="email">EMAIL*</label>
+    <input type="text" id="email">
+    <br>
+    <br>
+    <label for="pincode">PINCODE*</label>
+    <input type="text" id="pincode">
+    <br>
+    <h1>PAYMENT INFORMATION</h1>
+    <label for="card">CARD TYPE*</label required>
+    <select name="card" id="card">
+        <option value="No Value">Select a Card Type</option>
+        <option value="card">Credit-Card</option>
+        <option value="card">Debit-Card</option>
+    </select>
+    <br>
+    <br>
+    <label for="cardnumber">CARD NUMBER*</label>
+    <input type="text" id="cardnmber" placeholder="Enter Your Card Number" required>
+    <br>
+    <br>
+    <label for="date">EXPIRATION Date</label>
+            <input type="date" id="trip-start" value="2024-27-09" min="2024-" max="2030" required>
+    <br>
+    <br>
+    <label for="cvvr">CVV*</label>
+    <input type="text" id="cvv" placeholder="CVV" required>
+    <br>
+    <br>
+    <input type="submit" value="Sumbit Here">
+</body>
+</html>
